@@ -6,7 +6,7 @@ ini_set("memory_limit", "50M");
 
 $image = new SimpleImage();
 
-$sizes = array(29, 36, 48, 50, 57, 58, 72, 100, 114, 512, 1024);
+$sizes = array(29, 36, 48, 50, 57, 58, 72, 96, 100, 114, 144, 512, 1024);
 
 foreach ($sizes as $size) {
 
